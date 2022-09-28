@@ -1,5 +1,8 @@
 /* =================================================================== 
  *
+ *  Epitome Main Stylesheet
+ *  Template Ver. 1.0.0
+ *  04-22-2019
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -2289,7 +2292,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-works {
   padding-top: 19.2rem;
-  padding-bottom: 18rem;
+  padding-bottom: 20rem;
   background-color: #ffffff;
 }
 
@@ -2315,16 +2318,16 @@ input::-moz-focus-inner {
   height:150%;
   width:100%;
  
-  padding: 0px 50px;
+  padding: 9rem 5rem;
  
 }
 
 .carousel-wrapper .carousel-item .arrow {
   position: absolute;
-  top: 0;
+  top: 100;
   display: block;
   width: 35px;
-  height: 550px;
+  height: 650px;
   -webkit-tap-highlight-color: transparent;
   background-image: url("/images/arrow-500px.png");
   background-repeat: no-repeat;
@@ -2385,6 +2388,10 @@ input::-moz-focus-inner {
 }
 .carousel-wrapper #target-item-5:target ~ .item-5, .carousel-wrapper #target-item-6:target ~ .item-6 {
   z-index: 6;
+  opacity: 1;
+}
+.carousel-wrapper #target-item-6:target ~ .item-6, .carousel-wrapper #target-item-7:target ~ .item-7 {
+  z-index: 7;
   opacity: 1;
 }
 
